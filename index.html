@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>قهوة الفخامة | Luxury Gahwa & Event Hospitality</title>
+<meta name="description" content="Luxury Arabic gahwa, coffee, tea and hospitality services for weddings, majlis, corporate events and private occasions in the UAE.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#c9a45b;--gold2:#e7cc8b;--cream:#f7f1e6;--ink:#19140e;--muted:#7e7364;--white:#fffdf8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,sans-serif}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif}a{text-decoration:none;color:inherit}
+.nav{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;align-items:center;justify-content:space-between;padding:22px 6%;color:#fff}
+.logo{font-family:"Amiri",serif;font-size:26px;line-height:1}.logo small{display:block;font-family:Arial;font-size:9px;letter-spacing:2px;color:var(--gold2);margin-top:5px}
+.navlinks{display:flex;gap:28px;font-size:13px}.navlinks a{opacity:.9}.navlinks a:hover{color:var(--gold2)}
+.lang{border:1px solid rgba(255,255,255,.55);padding:9px 14px;border-radius:22px;cursor:pointer;background:transparent;color:#fff}
+.hero{min-height:92vh;background:#1a130c url("assets/hero.png") center/cover no-repeat;position:relative;display:flex;align-items:center;padding:120px 7% 70px}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,6,4,.94) 0%,rgba(8,6,4,.90) 32%,rgba(8,6,4,.48) 60%,rgba(8,6,4,.18) 82%,rgba(8,6,4,.28) 100%)}
+.hero-content{position:relative;z-index:1;max-width:620px;color:#fff;padding:28px 34px 34px;border-radius:6px;background:linear-gradient(90deg,rgba(8,6,4,.72),rgba(8,6,4,.48) 72%,rgba(8,6,4,0));box-shadow:0 18px 55px rgba(0,0,0,.16)}.eyebrow{letter-spacing:4px;text-transform:uppercase;color:var(--gold2);font-size:12px}
+.hero h1{font-size:clamp(44px,6vw,78px);line-height:1.05;margin:18px 0}.hero p{font-size:18px;line-height:1.8;color:#eee5d7;max-width:570px}
+.btn{display:inline-block;background:var(--gold);color:#1c150d;padding:15px 25px;border-radius:4px;font-weight:700;margin-top:12px}.btn.alt{background:transparent;border:1px solid var(--gold2);color:#fff;margin-left:10px}
+section{padding:90px 7%}.center{text-align:center}.kicker{color:#a27d38;letter-spacing:3px;text-transform:uppercase;font-size:11px;font-weight:bold}.title{font-size:43px;margin:12px 0 18px}.intro{max-width:700px;margin:auto;color:var(--muted);line-height:1.8}
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:45px}.card{background:#fffdf8;padding:30px;border:1px solid #e8ddca;box-shadow:0 12px 35px rgba(55,39,17,.06)}.icon{font-size:30px;color:var(--gold)}.card h3{font-size:21px;margin:16px 0 10px}.card p{color:var(--muted);line-height:1.7;font-size:14px}
+.gallery{background:#20170f;color:#fff}.gallery .intro{color:#d8cdbb}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:42px}.grid img{width:100%;height:310px;object-fit:cover;border-radius:2px;transition:.3s}.grid img:hover{transform:scale(1.015)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.about img{width:100%;height:560px;object-fit:cover}.about p{color:var(--muted);line-height:1.9}.points{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}.point strong{display:block;margin-bottom:6px}.point span{color:var(--muted);font-size:13px}
+.cta{background:linear-gradient(135deg,#b88e42,#e2c477);text-align:center;color:#1e160d}.cta p{max-width:650px;margin:0 auto 20px;line-height:1.8}
+footer{background:#15100b;color:#ddd2c2;padding:42px 7%;display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}.phone{color:var(--gold2);font-size:20px}
+[dir=rtl] body{font-family:Arial,sans-serif}.rtl-text{font-family:"Amiri",serif}.rtl .navlinks{flex-direction:row-reverse}
+@media(max-width:900px){.navlinks{display:none}.services{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}.about img{height:400px}}
+@media(max-width:560px){section{padding:65px 5%}.hero{padding:110px 5% 60px}.hero-content{padding:22px 18px 28px;background:rgba(8,6,4,.68)}.hero h1{font-size:45px}.hero p{font-size:16px}.services,.grid,.points{grid-template-columns:1fr}.grid img{height:330px}.btn.alt{margin-left:0;margin-top:10px}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#">قهوة الفخامة<small>LUXURY EVENT HOSPITALITY</small></a>
+  <nav class="navlinks">
+    <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+    <a href="#services" data-en="Services" data-ar="خدماتنا">Services</a>
+    <a href="#gallery" data-en="Gallery" data-ar="معرض الأعمال">Gallery</a>
+    <a href="#about" data-en="About" data-ar="من نحن">About</a>
+    <a href="#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+  </nav>
+  <button class="lang" id="lang">العربية</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="eyebrow" data-en="Luxury Arabic Hospitality" data-ar="ضيافة عربية فاخرة">Luxury Arabic Hospitality</div>
+    <h1 data-en="We serve elegance. You create the memories." data-ar="نرتقي بضيافتكم ونصنع ذكريات لا تُنسى">We serve elegance. You create the memories.</h1>
+    <p data-en="Premium gahwa, coffee, tea and hospitality service for weddings, majlis gatherings, corporate occasions and private events across the UAE."
+       data-ar="خدمات قهوة وضيافة فاخرة للأعراس والمجالس والفعاليات المؤسسية والمناسبات الخاصة في الإمارات.">
+      Premium gahwa, coffee, tea and hospitality service for weddings, majlis gatherings, corporate occasions and private events across the UAE.
+    </p>
+    <a class="btn" href="tel:0522444185" data-en="Book Your Event" data-ar="احجز مناسبتك">Book Your Event</a>
+    <a class="btn alt" href="#gallery" data-en="View Our Work" data-ar="شاهد أعمالنا">View Our Work</a>
+  </div>
+</section>
+
+<section id="services">
+  <div class="center"><div class="kicker" data-en="Our Services" data-ar="خدماتنا">Our Services</div><h2 class="title" data-en="Hospitality with a signature touch" data-ar="ضيافة بلمسة استثنائية">Hospitality with a signature touch</h2><p class="intro" data-en="Every detail is prepared to feel refined, welcoming and memorable—from the cups and trays to the service itself." data-ar="نعتني بكل تفصيلة لتكون ضيافتكم راقية ودافئة ولا تُنسى، من الأكواب والصواني إلى أسلوب التقديم.">Every detail is prepared to feel refined, welcoming and memorable—from the cups and trays to the service itself.</p></div>
+  <div class="services">
+    <div class="card"><div class="icon">☕</div><h3 data-en="Premium Gahwa" data-ar="قهوة عربية فاخرة">Premium Gahwa</h3><p data-en="Traditional Arabic coffee presented with elegant service and beautiful glassware." data-ar="قهوة عربية أصيلة تقدم بأسلوب راقٍ وأكواب وأدوات ضيافة أنيقة.">Traditional Arabic coffee presented with elegant service and beautiful glassware.</p></div>
+    <div class="card"><div class="icon">✦</div><h3 data-en="Tea & Beverages" data-ar="الشاي والمشروبات">Tea & Beverages</h3><p data-en="A curated selection of hot and chilled drinks to complement your occasion." data-ar="تشكيلة مختارة من المشروبات الساخنة والباردة لتكمل مناسبتكم.">A curated selection of hot and chilled drinks to complement your occasion.</p></div>
+    <div class="card"><div class="icon">♜</div><h3 data-en="Professional Team" data-ar="فريق محترف">Professional Team</h3><p data-en="Polished, courteous hospitality staff who understand the importance of every guest." data-ar="فريق ضيافة أنيق ولبق يقدّر أهمية كل ضيف وكل لحظة.">Polished, courteous hospitality staff who understand the importance of every guest.</p></div>
+    <div class="card"><div class="icon">◇</div><h3 data-en="Event Styling" data-ar="تنسيق المناسبات">Event Styling</h3><p data-en="Luxury trays, cups, flowers and presentation details tailored to your event." data-ar="صوانٍ وأكواب وورود وتفاصيل تقديم فاخرة مصممة بما يناسب مناسبتكم.">Luxury trays, cups, flowers and presentation details tailored to your event.</p></div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="center"><div class="kicker" style="color:#e7cc8b" data-en="Our Gallery" data-ar="معرض أعمالنا">Our Gallery</div><h2 class="title" data-en="A presentation worthy of your guests" data-ar="ضيافة تليق بضيوفكم">A presentation worthy of your guests</h2><p class="intro">Our real event-service moments, captured with the warmth and luxury that define our hospitality.</p></div>
+  <div class="grid">
+    <img src="assets/gahwa-1.jpeg" alt="Luxury gahwa service">
+    <img src="assets/gahwa-2.jpeg" alt="Blue beverage hospitality service">
+    <img src="assets/gahwa-3.jpeg" alt="Luxury tea service">
+    <img src="assets/gahwa-4.jpeg" alt="Premium beverage tray service">
+  </div>
+</section>
+
+<section id="about">
+  <div class="about">
+    <img src="assets/gahwa-4.jpeg" alt="Professional gahwa hospitality">
+    <div>
+      <div class="kicker" data-en="Why Choose Us" data-ar="لماذا نحن">Why Choose Us</div>
+      <h2 class="title" data-en="Luxury is in the details." data-ar="الفخامة تكمن في التفاصيل">Luxury is in the details.</h2>
+      <p data-en="We combine traditional Emirati and Arabic hospitality with a refined modern presentation. Our goal is simple: make your guests feel welcomed, valued and impressed."
+         data-ar="نجمع بين الضيافة العربية والإماراتية الأصيلة والتقديم العصري الراقي. هدفنا بسيط: أن يشعر ضيوفكم بالترحيب والتقدير والانبهار.">
+        We combine traditional Emirati and Arabic hospitality with a refined modern presentation. Our goal is simple: make your guests feel welcomed, valued and impressed.
+      </p>
+      <div class="points">
+        <div class="point"><strong data-en="Elegant presentation" data-ar="تقديم أنيق">Elegant presentation</strong><span data-en="Luxury trays, glassware and décor." data-ar="صوانٍ وأكواب وديكور فاخر.">Luxury trays, glassware and décor.</span></div>
+        <div class="point"><strong data-en="Guest-first service" data-ar="خدمة تضع الضيف أولاً">Guest-first service</strong><span data-en="Professional and courteous hospitality." data-ar="ضيافة احترافية ولبقة.">Professional and courteous hospitality.</span></div>
+        <div class="point"><strong data-en="Flexible occasions" data-ar="مناسبات متنوعة">Flexible occasions</strong><span data-en="Weddings, majlis, corporate and private events." data-ar="أعراس، مجالس، فعاليات ومناسبات خاصة.">Weddings, majlis, corporate and private events.</span></div>
+        <div class="point"><strong data-en="UAE service" data-ar="خدمة داخل الإمارات">UAE service</strong><span data-en="Designed for premium occasions across the UAE." data-ar="مصممة للمناسبات الراقية في الإمارات.">Designed for premium occasions across the UAE.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="center">
+    <div class="kicker">Book Your Occasion</div>
+    <h2 class="title" data-en="Let's make your event unforgettable." data-ar="لنجعل مناسبتكم لا تُنسى">Let's make your event unforgettable.</h2>
+    <p data-en="Tell us your date, venue and guest count and we'll help create the right hospitality experience for you." data-ar="أرسلوا لنا تاريخ المناسبة والموقع وعدد الضيوف وسنساعدكم في تصميم تجربة الضيافة المناسبة.">Tell us your date, venue and guest count and we'll help create the right hospitality experience for you.</p>
+    <a class="btn" href="tel:0522444185" data-en="Call 0522444185" data-ar="اتصل 0522444185">Call 0522444185</a>
+    <a class="btn alt" style="color:#1e160d;border-color:#1e160d" href="https://wa.me/971522444185" target="_blank" data-en="WhatsApp Us" data-ar="تواصل عبر واتساب">WhatsApp Us</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div><div class="logo">قهوة الفخامة</div><div style="margin-top:8px;font-size:12px">Luxury Event Hospitality</div></div>
+  <div><div>Bookings & Enquiries</div><div class="phone">0522444185</div></div>
+  <div>© <span id="year"></span> Qahwat Al Fakhama. All rights reserved.</div>
+</footer>
+
+<script>
+let ar=false;
+const lang=document.getElementById('lang');
+function setLang(){
+ document.documentElement.lang=ar?'ar':'en';
+ document.documentElement.dir=ar?'rtl':'ltr';
+ lang.textContent=ar?'English':'العربية';
+ document.querySelectorAll('[data-en]').forEach(el=>el.textContent=ar?el.dataset.ar:el.dataset.en);
+}
+lang.addEventListener('click',()=>{ar=!ar;setLang()});
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
